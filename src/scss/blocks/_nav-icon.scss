@@ -1,0 +1,10 @@
+.nav-icon {
+    display: none;
+    width: rem-size(32);
+    height: rem-size(32);
+    align-items: center;
+    @media (max-width: $t) {
+        display: flex;  
+    }
+}
+

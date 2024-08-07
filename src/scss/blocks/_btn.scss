@@ -1,0 +1,64 @@
+.btn {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: rem-size(48);
+    line-height: 120%;
+    padding: rem-size(2) rem-size(2) rem-size(2) rem-size(24);
+    color: var(--text-inverse-01);
+    border-radius: 100px;
+    flex-shrink: 0;
+    &.--green {
+        background: var(--fill-green);
+        @media (hover: hover) {
+            &:hover {
+                .btn__icon {
+                    background: var(--fill-green);
+                    color: var(--fill-light-100);
+                    svg {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+    &.--blue {
+        background: var(--fill-blue);
+        @media (hover: hover) {
+            &:hover {
+                .btn__icon {
+                    background: var(--fill-blue);
+                    color: var(--fill-light-100);
+                    svg {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+    &.--small {
+        .btn__icon {
+            width: rem-size(60);
+            height: rem-size(60);
+        }
+    }
+}
+.btn__icon {
+    @extend .flex-center;
+    border-radius: 100px;
+    width: rem-size(76);
+    height: rem-size(76);
+    background: var(--fill-light-100);
+    color: var(--fill-green);
+    transition:  var(--transition) ease-in;
+    svg {
+        fill: transparent;
+        stroke-width: 2px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        width: rem-size(32);
+        height: rem-size(32);
+        flex-shrink: 0;
+        transition: 0s ease-in;
+    }
+}

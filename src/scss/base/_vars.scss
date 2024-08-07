@@ -1,0 +1,64 @@
+:root {
+  
+    --fill-green: var(--green);
+    --text-01: var(--dark-01);
+    --fill-blue: var(--blue);
+    --text-green: var(--green);
+    --text-blue: var(--blue);
+    --text-inverse-01: var(--light-01);
+    --text-inverse-green: var(--green);
+    --text-inverse-blue: var(--blue);
+    --fill-light-100: var(--light-01);
+    --border-green: var(--green);
+    --border-03: var(--dark-03);
+    --text-inverse-03: var(--light-03);
+    --fill-gray-100: var(--gray-01);
+    --fill-card: var(--gray-01);
+    --text-inverse-02: var(--light-02);
+    --border-inverse-03: var(--light-03);
+    --text-02: var(--dark-02);
+    --text-03: var(--dark-03);
+    --border-inverse-01: var(--light-01);
+    --border-inverse-green: var(--green);
+    --border-blue: var(--blue);
+
+    --green: #0db14b;
+    --light-01: #fff;
+    --dark-01: #191b29;
+    --border-01: #d3d5e4;
+    --status-success: #00b126;
+    --status-error: #ff4e4e;
+    --status-warning: #ffb73d;
+    --status-info: #0098ee;
+    --blue: #0036a0;    
+    --gray-01: #f2f4f6;
+    --gray-03: rgba(244, 247, 251, 0.4);
+    --light-03: rgba(255, 255, 255, 0.24);
+    --gray-02: rgba(244, 247, 251, 0.56);
+    --light-02: rgba(255, 255, 255, 0.72);
+    --dark-02: rgba(25, 27, 41, 0.72);
+    --dark-03: rgba(25, 27, 41, 0.48);
+
+    
+    --font-family: "afuturaround", sans-serif;
+    --font-family-bold: "afuturaroundbold", sans-serif;
+    --second-family: "Circe", sans-serif;
+    --third-family: "Proxima Nova", sans-serif;
+    --font3: "Inter", sans-serif;
+    --font4: "Arial", sans-serif;
+    --font5: "SF Pro", sans-serif;
+    
+    --transition: .2s;
+}
+
+// @media
+$lg: 1400px;
+$l: 1200px;
+$t: 1024px;
+$mn: 992px;
+$m: 768px;
+$xx: 576px;
+$x480: 480px;
+$x: 425px;
+// $x390: 390px;
+$xs: 390px;
